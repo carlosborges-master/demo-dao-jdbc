@@ -5,7 +5,7 @@ import java.util.List;
 import model.dao.SellerDao;
 import model.entities.Seller;
 
-public class SellerDaoimplJDBC implements SellerDao {
+public class SellerDaoJDBC implements SellerDao {
 
 	@Override
 	public void insert(Seller obj) {
